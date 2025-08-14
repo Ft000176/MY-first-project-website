@@ -1,0 +1,76 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+header{
+    /* border: 2px solid red; */
+    background-image: url(./images/images/premium_photo-1668473366952-45f06fbf6492.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    margin: 10px;
+    padding: 20px;
+    gap: 300px;
+}
+nav ul {
+    display: flex;
+    gap: 50px;
+    /* border: 2px solid blue; */
+    padding: 15px;
+    margin: 5px;
+    list-style: none;
+}
+.Logo {
+    width: 50px;
+    height: 60px;
+}
+ul li a {
+    /* border: 2px solid yellow; */
+    padding: 10px;
+    margin: 5px;
+    background-color: white;
+    text-decoration: none;
+    border-radius: 15px;
+    color: black;
+}
+a:hover{
+    background-color: rgb(76, 76, 243);
+    cursor: pointer;
+    color: white;
+}
+.container {
+    text-align: center;
+    border: 2px solid yellowgreen;
+    background-image: url(./images/images/—Slidesdocs—website\ technology\ light\ effect_1263816249\ \(1\).jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h2 {
+    color: white;
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+}
+p {
+    color: white;
+    font-weight: 400;
+    text-align: center;
+}
+img {
+    width: 560;
+    height: 315;
+}
+form {
+    color: white;
+}
+footer {
+    background-image: url(./images/images/premium_photo-1668473366952-45f06fbf6492.avif);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.footer {
+    color: black;
+    padding: 20px;
+    margin: 20px;
+}
